@@ -1,0 +1,51 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.title {
+  font-weight: lighter;
+}
+
+.popoverBody {
+  max-height: 750px;
+  overflow-y: scroll;
+}
+
+.card {
+  height: 650px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow-y: scroll;
+}
+
+.pMovieCard {
+  display: flex;
+  direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.ratingBlock {
+  padding: 20px;
+}
+
+.plusMinusBlock {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.likedMovieImage {
+  margin-bottom: 20px;
+}
